@@ -5,6 +5,7 @@ const olItens = document.querySelector("#lista");
 const pEntrada = document.querySelector('#entrada');
 const btnAdicionar = document.querySelector("#adicionar");
 const btnLimpar = document.querySelector("#limpar");
+btnLimpar.addEventListener('click', limparItensDeLista);
 atualizaLista();
 function atualizaLista() {
     olItens.innerHTML = "";
