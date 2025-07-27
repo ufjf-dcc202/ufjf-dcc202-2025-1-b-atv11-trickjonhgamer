@@ -10,4 +10,9 @@ export function adicionaNaLista(item) {
     if (item) {
         lista.push(item);
     }
+}
+export function removeDaLista(posicao) {
+    if (posicao >= 0 && posicao < lista.length) {
+        lista.splice(posicao, 1);
     }
+}
