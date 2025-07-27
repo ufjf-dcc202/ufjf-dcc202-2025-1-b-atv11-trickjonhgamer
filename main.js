@@ -1,7 +1,7 @@
 //main.js
 import { a } from 'vitest/dist/chunks/suite.d.FvehnV49.js';
 import {getLista, limpaLista} from './lista.js';
-const olItens = document.querySelector("#lista");
+const olItens = document.querySelector("#itens");
 const pEntrada = document.querySelector('#entrada');
 const btnAdicionar = document.querySelector("#adicionar");
 const btnLimpar = document.querySelector("#limpar");
