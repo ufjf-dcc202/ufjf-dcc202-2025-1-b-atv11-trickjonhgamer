@@ -1,5 +1,6 @@
 //main.js
-import {getLista} from './lista.js';
+import { a } from 'vitest/dist/chunks/suite.d.FvehnV49.js';
+import {getLista, limpaLista} from './lista.js';
 const olItens = document.querySelector("#lista");
 const pEntrada = document.querySelector('#entrada');
 const btnAdicionar = document.querySelector("#adicionar");
@@ -13,4 +14,8 @@ function atualizaLista() {
     li.textContent = lista[i];
     olItens.appendChild(li);
   };
+}
+function limparItensDeLista() {
+    limpaLista();
+    atualizaLista();
 }
