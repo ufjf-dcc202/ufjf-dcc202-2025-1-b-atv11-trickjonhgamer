@@ -6,3 +6,8 @@ export function getLista() {
 export function limpaLista() {
   lista.splice(0);
 }
+export function adicionaNaLista(item) {
+    if (item) {
+        lista.push(item);
+    }
+    }
